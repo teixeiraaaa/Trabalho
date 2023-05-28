@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Wagner Cesar Vieira">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<header>
+    <figure>
+        <a href="../index.html"><img src="../images/logo.png" alt="Sumiu" title="Este é o meu logo"></a>
+    </figure>
+
+    <section id="Busca">
+        <img src="../images/search3.png" alt="Sumiu"/>
+        <input type="text" id="txtBusca" placeholder="Buscar..."/>
+        <button id="btnBusca">Buscar</button>
+    </section>
+
+    <nav>
+        <a href="../index.html"><button>Home</button></a>
+        <a href="../pages/minhavida.html"><button>Minha vida</button></a>
+        <a href="../pages/howto.html"><button>How-to</button></a>
+        <button>Contato</button>
+    </nav>
+</header>
+<body>
+    <main class="container">
+    <form action="cadastro.html" method="post">
+        <h3>Contato</h3>
+        <section>
+        Nome
+        <input type="text"
+        id="nome" name="Nome"
+        placeholder="Digite seu nome completo" required>
+        </section>
+        <section>
+        E-mail 
+        <input type="email" id="email" name="email" placeholder="Endereço de e-mail" required>
+        </section>
+        <section>
+        Data de nascimento
+        <input type="date" id="nasciemnto" name="nascimento" required>
+        </section>
+        <section>
+        Telefone
+        <input type="tel" id="telefone" name="telefone" required>
+        </section>
+        Sexo
+        <section>
+        <input type="radio" id="feminino" name="sexo"> Feminino
+        <input type="radio" id="masculino" name="sexo"> Masculino
+        </section>
+        <section>
+            CPF
+            <input type="number" id="CPF" name="CPF" placeholder="Número do CPF" required>
+        </section>
+        <section>
+            Escolha sua viagem
+            <select id="viagem" name="viagem">
+                <option value="Seleção">Selecione abaixo</option>
+                <option value="Bebs">Bebedouro - SP</option>
+                <option value="ma">Monte Azul Paulista - SP</option>
+            </select>
+        </section>
+        <input type="submit" id="botao" name="botao">
+        <input type="reset" id="botao2" name="botao2" value="Limpar">
+    </form>
+    
+    </main>
+</body>
+
+<footer>
+    <p>Made by João Gabriel Teixeira Bassetto &copy;</p>
+</footer>
+</html>
